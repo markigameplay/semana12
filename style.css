@@ -1,34 +1,36 @@
 body {
-    font-family: sans-serif;
-    margin: 0;
+    font-family: sans-serif; /* Fuente del documento */
+    margin: 0; /* Sin márgenes */
 }
 
 .contenedor {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding: 20px;
+    display: flex; /* Usar flexbox */
+    flex-wrap: wrap; /* Permitir ajustar*/
+    justify-content: space-around; /* Espacio entre elementos-contendores */
+    padding: 20px; /* Espaciado interno */
 }
 
 .tarjeta {
-    width: 300px;
-    margin: 10px;
-    border: 1px solid #ccc;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 300px; /* Ancho del contenedor tarjeta*/
+    margin: 10px; /* Márgenes alrededor */
+    border: 1px solid #ccc; /* Borde gris claro */
+    padding: 20px; /* Espaciado */
+    border-radius: 5px; /* Bordes redondeados */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil */
 }
+
 .tarjeta img {
-    width: 100%; 
-    height: auto; 
-    display: block; 
-    border-radius: 5px 5px 0 0; 
+    width: 100%; /* ancho */
+    height: auto; /* Altura automática */
+    display: block; /* Elimina espacios debajo de la imagen */
+    border-radius: 5px 5px 0 0; /* Bordes redondeados en la parte superior */
 }
+
 .tarjeta h3 {
-    margin-top: 10px; 
+    margin-top: 10px; /* Margen superior para el título */
 }
 
 .tarjeta p {
-    font-size: 0.9em; 
-    line-height: 1.5; 
+    font-size: 0.9em; /* Tamaño de fuente más pequeño */
+    line-height: 1.5; /* Altura de línea */
 }
