@@ -1,6 +1,8 @@
 body {
-    font-family: sans-serif; /* Fuente del documento */
-    margin: 0; /* Sin márgenes */
+     /* Fuente del documento */
+    font-family: sans-serif;
+    /* Sin márgenes */
+    margin: 0; 
 }
 
 .contenedor {
